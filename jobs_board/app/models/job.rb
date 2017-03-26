@@ -1,2 +1,3 @@
-class Job < ApplicationRecord
+class Job < ActiveRecord::Base
+  belongs_to :category
 end
